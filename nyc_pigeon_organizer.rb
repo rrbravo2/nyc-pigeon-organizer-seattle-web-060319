@@ -5,3 +5,6 @@ def nyc_pigeon_organizer(data)
     items.each do |feature, arr|
       arr.each do |name|
         names << name if !names.include?(name)
+      end 
+    end
+  end
