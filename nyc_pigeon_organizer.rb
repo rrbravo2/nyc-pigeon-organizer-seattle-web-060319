@@ -19,9 +19,10 @@ new_hash.each do |name, values|
       array.each do [element]
       if element == name && new_hash_value == attribute
        new_hash[name][new_hash_value] << value.to_s 
-        end
-      end
-    end
-  end
+         end
+       end
+     end
+   end
+ end
 end
 new_hash
