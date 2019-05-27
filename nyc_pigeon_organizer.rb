@@ -16,13 +16,7 @@ new_hash.each do |name, values|
   values.each do |new_hash_value, array|
     data.each do |attribute, values|
       values.each do |value, array|
-        array.each do [i]
-        if i == name && new_hash_value == attribute
-          new_hash[name][new_hash_value] << value.to_s 
+      array.each do [element]
+      if element == name && new_hash_value == attribute
+       new_hash[name][new_hash_value] << value.to_s 
         end
-       end
-      end
-     end
-    end
-   end
- end
