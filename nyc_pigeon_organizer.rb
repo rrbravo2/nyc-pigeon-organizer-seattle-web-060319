@@ -26,4 +26,3 @@ new_hash.each do |name, values|
   end
  end
 end
-new_hash
